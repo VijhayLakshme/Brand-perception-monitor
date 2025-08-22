@@ -1,0 +1,7 @@
+pandas
+nltk
+streamlit
+feedparser
+python-dotenv
+google-api-python-client
+praw
