@@ -1,6 +1,6 @@
 **Brand-Perception-Monitor**
 
-📰 Brand Perception Monitor
+#📰 Brand Perception Monitor
 An interactive Streamlit dashboard for analyzing brand perception across YouTube, Reddit, and News platforms. The tool collects and processes comments/posts, applies NLP-based sentiment analysis, and visualizes brand trends to provide actionable insights for businesses. Designed for easy navigation, with separate views for each platform and clickable links for reference.
 
 📁 Features
@@ -30,14 +30,14 @@ News articles
 -APIs / Scrapers for YouTube, Reddit, and News data
 
 🚀 How to Run
-# Clone the repository
+Clone the repository
 git clone https://github.com/yourusername/brand-perception-monitor.git  
 cd brand-perception-monitor  
 
-# Install required packages
+Install required packages
 pip install -r requirements.txt  
 
-# Run the Streamlit app
+Run the Streamlit app
 streamlit run brand_monitor.py  
 
 📂 Dataset Format
