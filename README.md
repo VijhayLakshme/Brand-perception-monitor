@@ -1,37 +1,52 @@
-Brand Perception Monitor
+**Brand-Perception-Monitor**
 
-An interactive dashboard designed to analyze and monitor brand perception across online platforms. This project was developed as part of an assignment for Leap Scholar, with the goal of turning unstructured online mentions into clear, actionable insights.
+📰 Brand Perception Monitor
+An interactive Streamlit dashboard for analyzing brand perception across YouTube, Reddit, and News platforms. The tool collects and processes comments/posts, applies NLP-based sentiment analysis, and visualizes brand trends to provide actionable insights for businesses. Designed for easy navigation, with separate views for each platform and clickable links for reference.
 
-🔹 Overview
+📁 Features
 
-The dashboard collects brand mentions from YouTube, Reddit, and News sources, applies NLP-based sentiment analysis, and visualizes trends over time. The focus is on making insights accessible, easy to navigate, and meaningful for non-technical users.
+✅ Multi-platform data integration:
 
-🔹 Features
+YouTube comments
 
--Multi-platform integration: YouTube comments, Reddit threads, News articles.
+Reddit posts
 
--Sentiment Analysis (Positive, Neutral, Negative) using NLP techniques.
+News articles
 
--Trend Tracking of brand mentions over time.
+✅ Sentiment Analysis (Positive, Negative, Neutral) using NLP
+✅ Trend Tracking of mentions over time
+✅ Keyword Extraction for identifying discussion themes
+✅ Platform-Specific Tabs for easy navigation
+✅ Interactive Visualizations with Plotly & Seaborn
+✅ Clickable Links to original posts/articles
 
--Streamlit UI with separate tabs/windows for each platform.
+📦 Tech Stack
 
--Fully clickable external links for direct reference.
+-Python 3.x
+-Streamlit (Dashboard)
+-NLTK / spaCy / TextBlob (Sentiment Analysis)
+-Pandas, NumPy (Data Handling)
+-Matplotlib, Seaborn, Plotly (Visualizations)
+-APIs / Scrapers for YouTube, Reddit, and News data
 
--Designed with usability in mind for quick decision-making.
+🚀 How to Run
+# Clone the repository
+git clone https://github.com/yourusername/brand-perception-monitor.git  
+cd brand-perception-monitor  
 
-🔹 Tech Stack
+# Install required packages
+pip install -r requirements.txt  
 
--Python (Pandas, NumPy)
+# Run the Streamlit app
+streamlit run brand_monitor.py  
 
--NLP & Sentiment Analysis (NLTK / spaCy, scikit-learn)
+📂 Dataset Format
 
--APIs & Data Extraction (YouTube, Reddit, News APIs)
+-YouTube: Video ID → fetches comments
+-Reddit: Subreddit/topic → fetches posts & comments
+-News: Keywords → fetches latest articles
+-Columns include: text, date, source, sentiment
 
--Visualization: Matplotlib, Seaborn, Plotly
+🎯 Use Case
 
--Dashboard: Streamlit
-
-🔹 Why This Project
-
-Companies today face a flood of online feedback that is scattered and unstructured. This project demonstrates how AI + data visualization can turn raw mentions into business intelligence — helping brands understand perception, spot trends, and respond effectively.
+Designed for businesses and product teams to track how their brand is being perceived online, identify sentiment trends, and make data-driven marketing and engagement decisions.
