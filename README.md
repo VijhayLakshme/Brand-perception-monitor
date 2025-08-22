@@ -1,7 +1,6 @@
-**Brand-Perception-Monitor**
+# **Brand-Perception-Monitor**
 
-#📰 Brand Perception Monitor
-An interactive Streamlit dashboard for analyzing brand perception across YouTube, Reddit, and News platforms. The tool collects and processes comments/posts, applies NLP-based sentiment analysis, and visualizes brand trends to provide actionable insights for businesses. Designed for easy navigation, with separate views for each platform and clickable links for reference.
+📰 Brand Perception Monitor is an interactive Streamlit dashboard for analyzing brand perception across YouTube, Reddit, and News platforms. The tool collects and processes comments/posts, applies NLP-based sentiment analysis, and visualizes brand trends to provide actionable insights for businesses. Designed for easy navigation, with separate views for each platform and clickable links for reference.
 
 📁 Features
 
